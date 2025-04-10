@@ -119,7 +119,7 @@ li {
 /* header section start */
 
 .header {
-    padding-block: 2rem;
+    padding-block: 0.8rem;
     position: sticky;
     top: 0;
     z-index: 99;
@@ -154,7 +154,15 @@ li {
 .header_link:hover {
     color: #0e1726;
 }
-
+.header_linkImg {
+    background-image: url("../images/logo.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 102px;
+    height: 100px;
+    display: block;
+}
 
 /* banner sec start */
 .banner {
