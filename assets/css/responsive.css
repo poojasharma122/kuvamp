@@ -25,7 +25,7 @@
 
     .header_link {
         color: #fff;
-        font-size: 1.5rem;
+        /* font-size: 1.5rem; */
 
     }
 
@@ -47,16 +47,26 @@
     h1 {
         font-size: 3.2rem;
     }
-    
+
     h2 {
         font-size: 2.6rem;
     }
 }
+
 @media (max-width:1024px) {
+    .banner--homepage {
+        height: 580px;
+    }
+    .topHotel .topbar {
+        margin-bottom: 5rem;
+    }
+
     .categories_sec {
         width: 47%;
     }
-
+    .banner {
+        height: 500px;
+    }
     .categories_img {
         height: 350px;
     }
@@ -80,17 +90,28 @@
     h1 {
         font-size: 3rem;
     }
-    
+
     h2 {
         font-size: 2.5rem;
     }
-    
+
+    .afterBanner_content h2 {
+        font-size: 2.2rem;
+    }
+
     h3 {
         font-size: 2rem;
     }
 }
 
 @media (max-width:992px) {
+    .banner--homepage {
+        height: 530px;
+    }
+    .topHotel .topbar {
+        margin-bottom: 4.5rem;
+    }
+
     .recommended_innerSec {
         flex-direction: column;
     }
@@ -201,17 +222,24 @@
     .pt-10 {
         padding-top: 4rem;
     }
+
     h1 {
         font-size: 2.8rem;
     }
-    
+
     h2 {
         font-size: 2.3rem;
     }
-    
+
+    .afterBanner_content h2 {
+        font-size: 2.1rem;
+    }
+
+
     h3 {
         font-size: 1.9rem;
     }
+
     .header_linkImg {
         width: 85px;
         height: 80px;
@@ -222,6 +250,15 @@
     .categories_sec {
         width: 100%;
     }
+    .topHotel .topbar {
+        margin-bottom: 4rem;
+    }
+    .banner {
+        height: 480px;
+    }
+    .banner--homepage {
+        height: 500px;
+    }
 
     .why_sec {
         width: 100%;
@@ -230,6 +267,7 @@
     .footer-btmwrapp {
         justify-content: center;
         align-items: center;
+        text-align: center;
     }
 
     .aboutInfo_sec,
@@ -284,14 +322,15 @@
     .pt-10 {
         padding-top: 3rem;
     }
+
     h1 {
         font-size: 2.7rem;
     }
-    
+
     h2 {
         font-size: 2.1rem;
     }
-    
+
     h3 {
         font-size: 1.8rem;
     }
@@ -321,15 +360,26 @@
     .pt-10 {
         padding-top: 2rem;
     }
+
     h1 {
         font-size: 2.5rem;
     }
-    
+
     h2 {
         font-size: 2rem;
     }
-    
+
+    .afterBanner_content h2 {
+        font-size: 1.8rem;
+    }
+
     h3 {
         font-size: 1.6rem;
+    }
+}
+
+@media (max-width:350px) {
+    .header_list {
+        align-items: center;
     }
 }
