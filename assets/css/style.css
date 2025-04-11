@@ -166,13 +166,14 @@ li {
     display: block;
     filter: brightness(0) saturate(100%) invert(8%) sepia(32%) saturate(906%) hue-rotate(178deg) brightness(95%) contrast(99%);
 }
+
 .humburger_Img {
     background-image: url("../images/humburger.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    width: 3rem;
-    height: 3rem;
+    width: 2.2rem;
+    height: 2.2rem;
 }
 
 .closeImg {
@@ -213,6 +214,7 @@ li {
 .header.scrolled {
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
+
 /* banner sec start */
 .banner {
     background-image: url("../images/homebanner.webp");
@@ -253,6 +255,7 @@ li {
 .afterBanner {
     margin-top: -150px;
     background-color: #fff;
+    overflow: hidden;
     padding-bottom: 100px;
 }
 
@@ -734,6 +737,7 @@ li {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
     gap: 1rem;
 }
 
@@ -1108,6 +1112,7 @@ li {
 .contact_wrapper {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .contact_right {
@@ -1176,4 +1181,3 @@ textarea {
     background-position: center;
     background-size: cover;
 }
-

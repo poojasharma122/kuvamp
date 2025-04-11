@@ -42,3 +42,294 @@
     }
 
 }
+
+@media (max-width:1200px) {
+    h1 {
+        font-size: 3.2rem;
+    }
+    
+    h2 {
+        font-size: 2.6rem;
+    }
+}
+@media (max-width:1024px) {
+    .categories_sec {
+        width: 47%;
+    }
+
+    .categories_img {
+        height: 350px;
+    }
+
+    .why_sec {
+        width: 48%;
+    }
+
+    .mb-10 {
+        margin-bottom: 5rem;
+    }
+
+    .pb-10 {
+        padding-bottom: 5rem;
+    }
+
+    .pt-10 {
+        padding-top: 5rem;
+    }
+
+    h1 {
+        font-size: 3rem;
+    }
+    
+    h2 {
+        font-size: 2.5rem;
+    }
+    
+    h3 {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width:992px) {
+    .recommended_innerSec {
+        flex-direction: column;
+    }
+
+    .recommended_innerRight {
+        width: 100%;
+    }
+
+    .recommended_innerRight {
+        width: 100%;
+    }
+
+    .recommended_innerSec:nth-of-type(even) {
+        flex-direction: column;
+    }
+
+    .recommended_innerSec:nth-of-type(even) .recommended_innerLeft {
+        width: 90%;
+        margin: -100px auto 0 auto;
+    }
+
+    .recommended_innerLeft {
+        width: 90%;
+        margin: -100px auto 0 auto;
+    }
+
+    .recommended_img {
+        height: 320px;
+    }
+
+    .beforeBooking_wrapper {
+        flex-direction: column;
+    }
+
+    .beforeBooking_right {
+        width: 100%;
+    }
+
+    .beforeBooking_left {
+        width: 100%;
+    }
+
+    .beforeBooking_wrapper {
+        flex-direction: column;
+    }
+
+    .beforeBooking_right {
+        width: 100%;
+    }
+
+    .beforeBooking_left {
+        width: 100%;
+    }
+
+    .beforeBooking_img {
+        height: 320px;
+    }
+
+    .topHotel_sec--reverse .topHotel_right {
+        margin: -100px auto 0 auto;
+        width: 90%;
+    }
+
+    .topHotel_sec--reverse {
+        flex-direction: column-reverse;
+    }
+
+    .topHotel_sec--reverse .topHotel_left {
+        width: 100%;
+    }
+
+    .topHotel_img {
+        height: 320px;
+        border-radius: 8px;
+    }
+
+    .topHotel_sec {
+        flex-direction: column-reverse;
+    }
+
+    .topHotel_right {
+        width: 90%;
+        margin: -100px auto 0 auto;
+    }
+
+    .topHotel_left {
+        width: 100%;
+    }
+
+    .contact_right {
+        width: 100%;
+        margin: 0;
+        padding: 1rem;
+    }
+
+    .contact_left {
+        display: none;
+    }
+
+    .mb-10 {
+        margin-bottom: 4rem;
+    }
+
+    .pb-10 {
+        padding-bottom: 4rem;
+    }
+
+    .pt-10 {
+        padding-top: 4rem;
+    }
+    h1 {
+        font-size: 2.8rem;
+    }
+    
+    h2 {
+        font-size: 2.3rem;
+    }
+    
+    h3 {
+        font-size: 1.9rem;
+    }
+    .header_linkImg {
+        width: 85px;
+        height: 80px;
+    }
+}
+
+@media (max-width:768px) {
+    .categories_sec {
+        width: 100%;
+    }
+
+    .why_sec {
+        width: 100%;
+    }
+
+    .footer-btmwrapp {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .aboutInfo_sec,
+    .aboutInfo_sec:nth-of-type(even) {
+        flex-direction: column-reverse;
+    }
+
+    .aboutInfo_right,
+    .aboutInfo_sec:nth-of-type(even) .aboutInfo_right {
+        width: 90%;
+        margin: -100px auto 0 auto;
+    }
+
+    .aboutInfo_left {
+        width: 100%;
+    }
+
+    .aboutInfo_img {
+        height: 320px;
+    }
+
+    .contact_right {
+        padding: 0.5rem 0;
+    }
+
+    .contactInfo_wrapper {
+        flex-direction: column-reverse;
+    }
+
+    .contactInfo_right {
+        width: 94%;
+        margin: -100px auto 0 auto;
+    }
+
+    .contactInfo_left {
+        width: 100%;
+    }
+
+    .contactInfo_img {
+        height: 320px;
+        border-radius: 8px;
+    }
+
+    .mb-10 {
+        margin-bottom: 3rem;
+    }
+
+    .pb-10 {
+        padding-bottom: 3rem;
+    }
+
+    .pt-10 {
+        padding-top: 3rem;
+    }
+    h1 {
+        font-size: 2.7rem;
+    }
+    
+    h2 {
+        font-size: 2.1rem;
+    }
+    
+    h3 {
+        font-size: 1.8rem;
+    }
+}
+
+@media (max-width:575px) {
+    .footer_navbar ul {
+        flex-direction: column;
+    }
+
+    .contact_formTop {
+        flex-wrap: wrap;
+    }
+
+    .contact_fommInfo {
+        width: 100%;
+    }
+
+    .mb-10 {
+        margin-bottom: 2rem;
+    }
+
+    .pb-10 {
+        padding-bottom: 2rem;
+    }
+
+    .pt-10 {
+        padding-top: 2rem;
+    }
+    h1 {
+        font-size: 2.5rem;
+    }
+    
+    h2 {
+        font-size: 2rem;
+    }
+    
+    h3 {
+        font-size: 1.6rem;
+    }
+}
