@@ -51,9 +51,16 @@
     h2 {
         font-size: 2.6rem;
     }
+    .afterBanner {
+        padding-bottom: 5.25rem;
+    }
 }
 
 @media (max-width:1024px) {
+
+    .afterBanner {
+        padding-bottom: 4.25rem;
+    }
     .banner--homepage {
         height: 580px;
     }
@@ -250,6 +257,9 @@
     .categories_sec {
         width: 100%;
     }
+    .afterBanner {
+        padding-bottom: 3.25rem;
+    }
     .topHotel .topbar {
         margin-bottom: 4rem;
     }
@@ -333,6 +343,9 @@
 
     h3 {
         font-size: 1.8rem;
+    }
+    .infoSec_wrapper {
+        padding: 1.8rem 1.5rem;
     }
 }
 
