@@ -1,3 +1,44 @@
-@media (max-width:1200px) {
-    
+@media (max-width:1440px) {
+    .header_navbar {
+        background: #d09f37;
+        padding: 20px;
+        max-width: 450px;
+        width: 100%;
+        height: 100%;
+        transform: translate(100%);
+        position: fixed;
+        top: 0;
+        right: 0;
+        transition: .3s ease-in-out;
+        z-index: 9999;
+    }
+
+    .header_list {
+        flex-direction: column;
+        text-align: start;
+        align-items: start;
+        padding: 16px;
+        height: 100%;
+        justify-content: start;
+        padding-top: 40px;
+    }
+
+    .header_link {
+        color: #fff;
+        font-size: 1.5rem;
+
+    }
+
+    .header_humburger {
+        display: flex;
+    }
+
+    .header_navbar.active {
+        transform: translate(0%);
+    }
+
+    .close-menu {
+        display: block;
+    }
+
 }

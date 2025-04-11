@@ -146,24 +146,73 @@ li {
 .header_link {
     font-size: 1.25rem;
     font-weight: 400;
-    color: #d09f37;
+    color: #0e1726;
     transition: 0.3s ease-in-out;
     font-style: normal;
+    position: relative;
 }
 
 .header_link:hover {
-    color: #0e1726;
+    color: #d09f37;
 }
+
 .header_linkImg {
     background-image: url("../images/logo.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    width: 102px;
-    height: 100px;
+    width: 94px;
+    height: 90px;
     display: block;
+    filter: brightness(0) saturate(100%) invert(8%) sepia(32%) saturate(906%) hue-rotate(178deg) brightness(95%) contrast(99%);
+}
+.humburger_Img {
+    background-image: url("../images/humburger.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 3rem;
+    height: 3rem;
 }
 
+.closeImg {
+    background-image: url("../images/close.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 3rem;
+    height: 3rem;
+    filter: invert(1);
+}
+
+.close-menu {
+    position: absolute;
+    top: 18px;
+    right: 30px;
+    display: none;
+}
+
+.header_link:before {
+    content: "";
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 0%;
+    height: 2px;
+    background-color: #d09f37;
+    transition: all .3s linear;
+}
+
+.header_link:hover:before,
+.header_link.active:before {
+    width: 100%;
+    left: 0;
+    background-color: #d09f37;
+}
+
+.header.scrolled {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
 /* banner sec start */
 .banner {
     background-image: url("../images/homebanner.webp");
@@ -630,7 +679,7 @@ li {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 1.5rem;
+    gap: 1.1rem;
 }
 
 .social_sec {
@@ -1127,3 +1176,4 @@ textarea {
     background-position: center;
     background-size: cover;
 }
+
