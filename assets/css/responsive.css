@@ -44,6 +44,9 @@
 }
 
 @media (max-width:1200px) {
+    html{
+        font-size: 15px;
+    }
     h1 {
         font-size: 3.2rem;
     }
@@ -51,6 +54,7 @@
     h2 {
         font-size: 2.6rem;
     }
+
     .afterBanner {
         padding-bottom: 5.25rem;
     }
@@ -61,9 +65,11 @@
     .afterBanner {
         padding-bottom: 4.25rem;
     }
+
     .banner--homepage {
         height: 580px;
     }
+
     .topHotel .topbar {
         margin-bottom: 5rem;
     }
@@ -71,9 +77,11 @@
     .categories_sec {
         width: 47%;
     }
+
     .banner {
         height: 500px;
     }
+
     .categories_img {
         height: 350px;
     }
@@ -115,6 +123,7 @@
     .banner--homepage {
         height: 530px;
     }
+
     .topHotel .topbar {
         margin-bottom: 4.5rem;
     }
@@ -179,7 +188,7 @@
 
     .topHotel_sec--reverse .topHotel_right {
         margin: -100px auto 0 auto;
-        width: 90%;
+        width: 100%;
     }
 
     .topHotel_sec--reverse {
@@ -200,7 +209,7 @@
     }
 
     .topHotel_right {
-        width: 90%;
+        width: 100%;
         margin: -100px auto 0 auto;
     }
 
@@ -254,18 +263,25 @@
 }
 
 @media (max-width:768px) {
+    html{
+        font-size: 14px;
+    }
     .categories_sec {
         width: 100%;
     }
+
     .afterBanner {
         padding-bottom: 3.25rem;
     }
+
     .topHotel .topbar {
         margin-bottom: 4rem;
     }
+
     .banner {
         height: 480px;
     }
+
     .banner--homepage {
         height: 500px;
     }
@@ -344,8 +360,28 @@
     h3 {
         font-size: 1.8rem;
     }
+
     .infoSec_wrapper {
         padding: 1.8rem 1.5rem;
+    }
+
+    .newsletter_form .input_email {
+        border-bottom: 1px solid #222222;
+        background-color: #fff;
+        border-radius: 8px;
+        padding: 12px 20px;
+    }
+
+    .newsletter_form {
+        background-color: transparent;
+    }
+
+    .newsletter_form {
+        background-color: transparent;
+        flex-direction: column;
+    }
+    .newsletter_inner {
+        background-color: transparent;
     }
 }
 
@@ -375,11 +411,11 @@
     }
 
     h1 {
-        font-size: 2.5rem;
+        font-size: 2rem;
     }
 
     h2 {
-        font-size: 2rem;
+        font-size: 1.7rem;
     }
 
     .afterBanner_content h2 {
@@ -389,7 +425,21 @@
     h3 {
         font-size: 1.6rem;
     }
+    p, li {
+        font-size: 1rem;
+    }
+
 }
+
+@media screen and (max-width:480px){
+    .afterBanner_content h2 {
+        font-size: 1.4rem;
+    }
+    .infoSec_content h3 {
+        font-size: 1.4rem;
+    }
+}
+
 
 @media (max-width:350px) {
     .header_list {

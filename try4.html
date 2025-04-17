@@ -1,0 +1,1476 @@
+<style>
+    /* Tp section  CSS Start*/
+    .mobile-view {
+        display: none;
+    }
+
+    .site-header {
+        z-index: 999999;
+    }
+
+    .tp-bottom-text-wrapper {
+        padding: 1.25rem 0;
+    }
+
+    .tp-bottom-text-wrapper h3 {
+        color: #000;
+        margin-bottom: 1rem;
+    }
+
+    .top-list-wrap {
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        padding: 1.25rem;
+        border-radius: 8px;
+        display: flex;
+        justify-content: space-between;
+        background-color: #151f2f;
+        margin: 1.25rem 0;
+    }
+
+    .toplist-left {
+        width: 47%;
+    }
+
+    .tp-logo {
+        height: 5rem;
+        width: 100%;
+        background-color: #ffffff;
+        border-radius: 5px;
+        position: relative;
+        overflow: hidden;
+        padding: 10px;
+    }
+
+    .tp-logo a {
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 100%;
+        width: 100%;
+        display: inline-block;
+        overflow: hidden;
+    }
+
+    .rating-wrap p {
+        font-size: 1.2rem;
+        color: #fff;
+        font-weight: 700;
+        margin-bottom: 0;
+        line-height: 1.4;
+    }
+
+    .rating-wrap {
+        display: flex;
+        justify-content: space-between;
+        margin: 0.75rem 0;
+    }
+
+    .rating-txt p span,
+    .votes-txt p span {
+        display: block;
+        font-weight: 700;
+    }
+
+    .tp-bottom-text-wrapper p {
+        color: #000;
+        font-size: 1rem;
+    }
+
+    .tp-bottom-text-wrapper ul li {
+        margin-bottom: 1rem;
+    }
+
+    .toplist-right {
+        width: 50%;
+    }
+
+    .toplist-heading {
+        text-align: center;
+    }
+
+    .toplist-heading h4 {
+        font-size: 22px;
+        line-height: 1.1;
+        text-align: center;
+        color: #fff;
+        margin-bottom: 0.625rem;
+        font-weight: 800;
+    }
+
+    .toplist-heading p {
+        font-size: 1.1rem;
+        text-align: center;
+        color: #fff;
+        font-weight: 500;
+        max-width: 11.25rem;
+        margin: 0 auto;
+    }
+
+    .top-list-btn {
+        text-align: center;
+        margin: 0 auto;
+        margin-top: 2rem;
+    }
+
+    .tp-cards-section {
+        padding: 1.875rem 0;
+    }
+
+    .tp-cards {
+        background-color: #000000;
+        padding: 1.25rem;
+        border-radius: 10px;
+        color: #fff;
+        margin-bottom: 1.25rem;
+    }
+
+    .tp-banner {
+        position: relative;
+        height: 18rem;
+        background-position: center;
+        background-size: contain;
+        padding: 5.625rem 0;
+        background-repeat: no-repeat;
+        background-size: cover;
+        z-index: 1;
+    }
+
+    .tp-banner:after {
+        content: "";
+        position: absolute;
+        top: 0%;
+        left: 0%;
+        height: 100%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgba(0 0 0/70%);
+        background-blend-mode: multiply;
+    }
+
+    .tp-banner-text-group h2 {
+        color: #fff;
+        text-align: center;
+        padding: 0 0.9375rem;
+        font-size: 1.875rem;
+        margin: 0 auto;
+        max-width: 21.875rem;
+        margin-top: 1rem;
+    }
+
+    .tp-banner-text {
+        z-index: 1111;
+        position: relative;
+    }
+
+    .casino-section h2 {
+        color: #fff;
+        text-align: center;
+        padding: 1.875rem 0;
+        font-size: 1.875rem;
+    }
+
+    .rating-txt p span,
+    .votes-txt p span {
+        font-size: 0.9375rem;
+    }
+
+    .top-list-btn .shopbtn {
+        padding: 12px 34px;
+    }
+
+    .top-list-btn .btn {
+        background: transparent;
+        border-color: #fff;
+        color: #fff;
+        padding: 10px 20px;
+    }
+
+    .Stars {
+        font-size: 20px;
+        font-family: "Arial", sans-serif;
+        position: relative;
+        display: inline-block;
+    }
+
+    .Stars::before {
+        content: "★★★★★";
+        letter-spacing: 3px;
+        background: linear-gradient(90deg, #fc0 var(--percent), #ccc var(--percent));
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        display: block;
+    }
+
+    .Stars.Stars--rating99::before {
+        --percent: 99%;
+    }
+
+    .tp-logo.logo_tonybet {
+        background: #1e1d1d;
+    }
+
+    .tp-logo.logo_ivibet {
+        background: #eeeff4;
+    }
+
+    .tp-logo.logo_twentybets {
+        background: #074145;
+    }
+
+    .tp-logo.logo_twentybet {
+        background: #091d35;
+    }
+
+    .tp-logo.logo_woocasino {
+        background-color: #010101;
+    }
+
+    .tp-logo.logo_bizzo {
+        background-color: #1a1a1a;
+    }
+
+    .tp-logo.logo_betovo {
+        background-color: #000;
+    }
+
+    .tp-logo.logo_jetforjet {
+        background-color: #121328;
+    }
+
+    .tp-logo.logo_goldspin {
+        background-color: #0000;
+        border: 1px solid #fff;
+    }
+
+    .tp-logo.logo_spinit {
+        background-color: #000;
+    }
+
+    .tp-banner-text p {
+        color: #fff;
+        font-size: 15px;
+    }
+
+    .tp-logo.logo_librabet {
+        background: #000;
+    }
+
+    .tp-logo.logo_twentytwobets {
+        background: #054247;
+    }
+
+    .tp-logo.logo_dragon {
+        background: #130304;
+    }
+
+    .tp-logo.logo_jet4bet {
+        background: #0f1428;
+    }
+
+    /* TP media query start  */
+
+    /* media query 575 */
+    @media(max-width:575px) {
+
+        .desktop-version,
+        .b4footer {
+            display: none;
+        }
+
+        .mobile-view {
+            display: block;
+        }
+
+        #newcookies {
+            display: block;
+        }
+
+        .disclaimer {
+            display: none;
+        }
+
+        .tp-logo {
+            max-width: 250px;
+        }
+
+        .top-list-wrap {
+            padding: 20px 40px;
+        }
+
+        .top-list-wrap {
+            padding: 20px;
+        }
+
+    }
+
+    /* media query 525 */
+    @media(max-width:525px) {
+        .toplist-heading h4 {
+            font-size: 21px;
+        }
+
+        .rating-txt p span,
+        .votes-txt p span {
+            font-size: 14px;
+        }
+
+        .top-list-btn {
+            margin-top: 24px;
+        }
+
+        .gamb-logos ul li .btn-logos {
+            width: 8.375rem;
+        }
+
+    }
+
+    /* media query 480 */
+
+    @media(max-width:480px) {
+
+        .rating-txt p span,
+        .votes-txt p span {
+            font-size: 12px;
+        }
+
+        .top-list-btn .shopbtn {
+            line-height: normal;
+            padding: 8px 24px;
+        }
+
+        .toplist-heading h4 {
+            font-size: 18px;
+        }
+
+        .visit-btn {
+            padding: 12px 20px;
+        }
+
+        .Stars {
+            font-size: 18px;
+        }
+
+        .gamb-logos ul li .btn-logos {
+            width: 6.375rem;
+        }
+
+        .tp-butn {
+            padding: 0.9375rem 1.875rem 1.125rem;
+        }
+
+        .rating-wrap p {
+            font-size: 1.1rem;
+
+        }
+    }
+
+    /* media query 400 */
+    @media(max-width:400px) {
+        .tp-banner-text-group h2 {
+            font-size: 23px;
+            margin-bottom: 15px;
+        }
+
+        .casino-section h2 {
+            font-size: 25px;
+        }
+
+        .toplist-heading p {
+            font-size: 13px;
+        }
+
+        .toplist-heading h4 {
+            font-size: 15px;
+        }
+
+        .tp-butn {
+            padding: 0.875rem;
+        }
+
+        .rating-wrap p {
+            font-size: 1rem;
+        }
+    }
+
+    /* media query 350 */
+    @media(max-width:350px) {
+        .top-list-wrap {
+            padding: 15px;
+        }
+
+        .tp-logo {
+            height: 70px;
+        }
+
+        .toplist-heading h4 {
+            font-size: 16px;
+            font-weight: 700;
+        }
+
+        .top-list-btn .shopbtn {
+            padding: 6px 18px;
+        }
+    }
+
+    /* Tp media query end  */
+</style>
+
+<?php include_once('header.php') ?>
+
+<div class="desktop-version">
+    <div class="site-banner">
+        <div class="banner-video">
+            <video class="video-background" autoplay="" loop="" muted="">
+                <source src="../images/hero-video.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div class="banner-wrap">
+            <div class="banner-text aos-init" data-aos="fade-up">
+                <span>Casino Hotels in Las Vegas</span>
+                <h1 class="banner-title">
+                    Stay in the Heart of the Game in Las Vegas
+                </h1>
+                <p class="small-text">
+                    Las Vegas is the entertainment and casino capital of the world. Staying at a casino hotel means
+                    enjoying direct access to the best gaming rooms, shows, and restaurants. Whether you're passionate
+                    about poker, slots, or blackjack, these establishments immerse you in the city's unique atmosphere.
+                    Discover our selection of the best casino hotels in Las Vegas.
+                </p>
+
+
+            </div>
+        </div>
+    </div>
+
+    <section class="hotels-link-sec ptb-100 over-flow-h white-bg">
+        <div class="container">
+            <div class="site-heading aos-init text-center" data-aos="fade-up">
+                <h3>Best Casino Hotels in Las Vegas</h3>
+
+            </div>
+            <div class="row align-items-center">
+                <div class="col-lg-6 col-md-6">
+                    <div class="aos-init" data-aos="fade-right">
+                        <img src="../images/all-4.jpg" class="img-fluid" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6">
+                    <div class="hotel-link-text aos-init" data-aos="fade-left">
+
+                        <h3 class="small-heading">
+                            The Venetian Resort
+                        </h3>
+                        <p class="tile-disc"><i class="fa fa-dollar"></i> Price per night: <strong> 290 $</strong></p>
+                        <p class="tile-disc"><i class="fa fa-dot-circle-o"></i>World-class casino with poker and table
+                            games</p>
+                        <p class="tile-disc"><i class="fa fa-dot-circle-o"></i> Elegant and spacious suites</p>
+                        <p class="tile-disc"><i class="fa fa-dot-circle-o"></i> Award-winning restaurants and live
+                            entertainment</p>
+
+                        <p class="pt-2">
+                            The Venetian Resort is one of the most iconic casino hotels on the Strip, offering a
+                            high-end experience combined with a top-tier casino. Its vast gaming floor includes hundreds
+                            of slot machines, blackjack and poker tables, and a sportsbook. The hotel is known for its
+                            Venetian-inspired ambiance, with indoor canals where you can take a gondola ride. With its
+                            gourmet restaurants and luxury spa, it's a perfect choice for gamblers seeking comfort and
+                            elegance.
+                        </p>
+
+                        <a href="https://expedia.com/affiliates/las-vegas-hotels-the-venetian-resort-las-vegas.6W5Ll1D"
+                            class="cta-btn btn-outer" target="_blank">See the hotels</a>
+                    </div>
+                </div>
+            </div>
+            <div class="row flex-md-row-reverse align-items-center">
+                <div class="col-lg-6 col-md-6">
+                    <div class="aos-init" data-aos="fade-left">
+                        <img src="../images/luxury1.jpg" class="img-fluid" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6">
+                    <div class="hotel-link-text aos-init" data-aos="fade-right">
+
+                        <h3 class="small-heading">
+                            Bellagio Las Vegas
+                        </h3>
+                        <p class="tile-disc"><i class="fa fa-dollar"></i>Price per night: <strong> 320 $ </strong></p>
+                        <p class="tile-disc"><i class="fa fa-dot-circle-o"></i> Premium Casino Experience</p>
+                        <p class="tile-disc"><i class="fa fa-dot-circle-o"></i> Iconic water show at the Bellagio
+                            Fountains</p>
+                        <p class="tile-disc"><i class="fa fa-dot-circle-o"></i>Refined rooms with panoramic views</p>
+
+                        <p class="pt-2">
+                            The Bellagio is a true Las Vegas institution, renowned for its sophisticated casino and
+                            luxurious atmosphere. Its gaming floor is one of the most prestigious in the city,
+                            attracting both casual and professional gamblers. Outside of the casino, the Bellagio offers
+                            sumptuous rooms, Michelin-starred restaurants, and the famous fountain show, which attracts
+                            thousands of visitors daily.
+                        </p>
+
+                        <a href="https://expedia.com/affiliates/las-vegas-hotels-bellagio.sCs7xom"
+                            class="cta-btn btn-outer" target="_blank">See the hotels</a>
+                    </div>
+                </div>
+
+            </div>
+            <div class="row align-items-center">
+                <div class="col-lg-6 col-md-6">
+                    <div class="aos-init" data-aos="fade-right">
+                        <img src="../images/all-6.jpg" class="img-fluid" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6">
+                    <div class="hotel-link-text aos-init" data-aos="fade-left">
+
+                        <h3 class="small-heading">
+                            MGM Grand Hotel & Casino
+                        </h3>
+                        <p class="tile-disc"><i class="fa fa-dollar"></i> Price per night: <strong> 210 $ </strong></p>
+                        <p class="tile-disc"><i class="fa fa-dot-circle-o"></i>Huge casino with a wide selection of
+                            games</p>
+                        <p class="tile-disc"><i class="fa fa-dot-circle-o"></i> Pools, shows and lively nightlife</p>
+                        <p class="tile-disc"><i class="fa fa-dot-circle-o"></i> CModern rooms with premium amenities</p>
+
+                        <p class="pt-2">
+                            One of the largest resorts in Las Vegas, the MGM Grand features an impressive casino with
+                            thousands of slot machines, blackjack tables, and a top-notch poker room. In addition to the
+                            casino, the hotel offers dream pools, internationally renowned clubs, and exclusive shows,
+                            such as those by Cirque du Soleil. The rooms are modern and well-equipped, offering a
+                            quality stay at a competitive price for a hotel of this size.
+                        </p>
+
+                        <a href="https://expedia.com/affiliates/las-vegas-hotels-mgm-grand-hotel-casino.Kxq1e95"
+                            class="cta-btn btn-outer" target="_blank">See the hotels</a>
+                    </div>
+                </div>
+            </div>
+            <div class="row flex-md-row-reverse align-items-center">
+                <div class="col-lg-6 col-md-6 aos-init" data-aos="fade-left" data-aos-duration="1500">
+                    <div class="aos-init" data-aos="fade-left">
+                        <img src="../images/all-3.jpg" class="img-fluid" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6">
+                    <div class="hotel-link-text aos-init" data-aos="fade-right">
+
+                        <h3 class="small-heading">
+                            Caesars Palace
+                        </h3>
+                        <p class="tile-disc"><i class="fa fa-dollar"></i> Price per night: <strong> 290 $</strong></p>
+                        <p class="tile-disc"><i class="fa fa-dot-circle-o"></i> Renowned casino with VIP tables and
+                            tournaments</p>
+                        <p class="tile-disc"><i class="fa fa-dot-circle-o"></i> Gourmet restaurants and exclusive bars
+                        </p>
+                        <p class="tile-disc"><i class="fa fa-dot-circle-o"></i> Luxury spa and private pools</p>
+
+                        <p class="pt-2">
+                            Caesars Palace embodies the elegance and splendor of Las Vegas. Its casino is one of the
+                            most famous in the city, offering a wide range of games, including poker tournaments and VIP
+                            lounges for high rollers. The resort also features some of the best restaurants in Las
+                            Vegas, as well as a luxury spa and top-of-the-line pools. Ideal for casino enthusiasts
+                            looking for impeccable service in a prestigious setting.
+                        </p>
+
+                        <a href="https://expedia.com/affiliates/las-vegas-hotels-caesars-palace-resort-casino.TwcBZJE"
+                            class="cta-btn btn-outer" target="_blank">See the hotels</a>
+                    </div>
+                </div>
+            </div>
+            <div class="row align-items-center">
+                <div class="col-lg-6 col-md-6">
+                    <div class="aos-init" data-aos="fade-left">
+                        <img src="../images/all-8.jpg" class="img-fluid" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6">
+                    <div class="hotel-link-text aos-init" data-aos="fade-left">
+
+                        <h3 class="small-heading">
+                            Wynn Las Vegas
+                        </h3>
+                        <p class="tile-disc"><i class="fa fa-dollar"></i> Price per night:<strong> 350 $ </strong></p>
+                        <p class="tile-disc"><i class="fa fa-dot-circle-o"></i> Elegant and refined casino</p>
+                        <p class="tile-disc"><i class="fa fa-dot-circle-o"></i> Luxurious rooms and suites with views of
+                            the Strip</p>
+                        <p class="tile-disc"><i class="fa fa-dot-circle-o"></i> Star-rated restaurants and exclusive
+                            clubs</p>
+
+                        <p class="pt-2">
+                            The Wynn Las Vegas is renowned for its luxurious casino and sophisticated atmosphere. Its
+                            gaming floor offers blackjack, baccarat, craps, and a top-tier poker room. The rooms and
+                            suites are among the most refined in the city, with breathtaking views of the Strip. For
+                            those looking to combine a gaming experience with unparalleled comfort, the Wynn is an
+                            excellent choice.
+                        </p>
+
+                        <a href="https://expedia.com/affiliates/las-vegas-hotels-wynn-las-vegas.cUICDRH"
+                            class="cta-btn btn-outer" target="_blank">See the hotels</a>
+                    </div>
+                </div>
+            </div>
+            <div class="row flex-md-row-reverse align-items-center">
+                <div class="col-lg-6 col-md-6">
+                    <div class="aos-init" data-aos="fade-right">
+                        <img src="../images/all-7.jpg" class="img-fluid" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6">
+                    <div class="hotel-link-text aos-init" data-aos="fade-right">
+
+                        <h3 class="small-heading">
+                            The Cosmopolitan of Las Vegasgas
+                        </h3>
+                        <p class="tile-disc"><i class="fa fa-dollar"></i> Price per night:<strong> 310 $ </strong></p>
+                        <p class="tile-disc"><i class="fa fa-dot-circle-o"></i>Modern casino with trendy atmosphere</p>
+                        <p class="tile-disc"><i class="fa fa-dot-circle-o"></i> Rooms and suites with private balconies
+                        </p>
+                        <p class="tile-disc"><i class="fa fa-dot-circle-o"></i> Trendy clubs and bars with live DJs</p>
+
+                        <p class="pt-2">
+                            The Cosmopolitan is one of the newest and most stylish hotel-casinos on the Strip. Its
+                            casino boasts a younger, more dynamic atmosphere, with modern decor and a diverse selection
+                            of table games and slot machines. The hotel is also known for its trendy clubs and
+                            restaurants, attracting a clientele seeking entertainment as much as a gaming experience.
+                        </p>
+
+                        <a href="https://expedia.com/affiliates/las-vegas-hotels-the-cosmopolitan-of-las-vegas.mxypFWf"
+                            class="cta-btn btn-outer" target="_blank">See the hotels</a>
+                    </div>
+                </div>
+
+            </div>
+            <div class="row align-items-center">
+                <div class="col-lg-6 col-md-6">
+                    <div class="aos-init" data-aos="fade-left">
+                        <img src="../images/luxury2.jpg" class="img-fluid" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6">
+                    <div class="hotel-link-text aos-init" data-aos="fade-left">
+
+                        <h3 class="small-heading">
+                            ARIA Resort & Casino
+                        </h3>
+                        <p class="tile-disc"><i class="fa fa-dollar"></i> Price per night:<strong> 330 $ </strong></p>
+                        <p class="tile-disc"><i class="fa fa-dot-circle-o"></i> High-tech casino with poker rooms and
+                            sports betting</p>
+                        <p class="tile-disc"><i class="fa fa-dot-circle-o"></i> Spa, swimming pools and gourmet
+                            restaurants</p>
+                        <p class="tile-disc"><i class="fa fa-dot-circle-o"></i> Ultramodern rooms and suites</p>
+
+                        <p class="pt-2">
+                            The ARIA Resort & Casino is renowned for its state-of-the-art casino, featuring digital
+                            tables, a large sports betting area, and an elegant ambiance. The hotel itself is a
+                            masterpiece of modern architecture, with high-end rooms and state-of-the-art amenities. The
+                            ARIA's spa and pools also make it an excellent choice for those looking to combine luxury
+                            with gaming excitement.
+                        </p>
+
+                        <a href="https://expedia.com/affiliates/las-vegas-hotels-aria-resort-casino.HeOBfsh"
+                            class="cta-btn btn-outer" target="_blank">See the hotels</a>
+                    </div>
+                </div>
+            </div>
+            <div class="row flex-md-row-reverse align-items-center">
+                <div class="col-lg-6 col-md-6 aos-init">
+                    <div class="aos-init" data-aos="fade-left">
+                        <img src="../images/all-1.jpg" class="img-fluid" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6">
+                    <div class="hotel-link-text aos-init" data-aos="fade-right">
+
+                        <h3 class="small-heading">
+                            The Mirage Hotel & Casino
+                        </h3>
+                        <p class="tile-disc"><i class="fa fa-dollar"></i> Price per night<strong> 250 $ </strong></p>
+                        <p class="tile-disc"><i class="fa fa-dot-circle-o"></i> Lively casino with classic machines and
+                            tables</p>
+                        <p class="tile-disc"><i class="fa fa-dot-circle-o"></i> Exclusive shows and entertainment</p>
+                        <p class="tile-disc"><i class="fa fa-dot-circle-o"></i> Comfortable rooms with excellent value
+                            for money</p>
+
+                        <p class="pt-2">
+                            The Mirage is a popular choice among casino-goers looking for a more relaxed atmosphere
+                            while still enjoying the action of Las Vegas. Its casino is spacious and well-designed,
+                            offering a diverse selection of games of chance. The hotel is also known for its live
+                            entertainment, including Shin Lim's magic show and the famous erupting volcano in front of
+                            the hotel. A great balance between entertainment and a gaming experience.
+                        </p>
+
+                        <a href="https://www.expedia.ie/Las-Vegas-Hotels-The-Mirage-Hotel-Casino.h15575.Hotel-Information"
+                            class="cta-btn btn-outer" target="_blank">See the hotels</a>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+
+
+        </div>
+    </section>
+    <section class="section ptb-100 over-flow-h blog-thumbnails white-bg">
+        <div class="container">
+
+            <div class="site-heading aos-init text-center" data-aos="fade-up">
+                <h3>Latest Articles & Travel Tips</h3>
+
+            </div>
+            <div class="row">
+                <div class="col-lg-8">
+                    <div class="img-box">
+                        <img src="../images/blog1.jpg" class="img-fluid" alt="">
+                        <h2>📌 Why Choose an All-Inclusive Hotel in Las Vegas?</h2>
+                        <p>The benefits of booking an all-inclusive hotel for a stress-free stay.</p>
+                        <div class="button-wrap1">
+                            <a href="/articles#article-one" target="_blank">Learn more</a>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="img-box">
+                                <img src="../images/blog2.jpg" class="img-fluid" alt="">
+                                <h2>🎰 The Best All-Inclusive Casino Hotels</h2>
+                                <p>Which hotels combine all-inclusive with an unparalleled casino experience?</p>
+                                <div class="button-wrap1">
+                                    <a href="/articles#article-two" target="_blank">Learn more</a>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="col-lg-12">
+                            <div class="img-box">
+                                <img src="../images/blog3.jpg" class="img-fluid" alt="">
+                                <h2>💰 How to Maximize Your All-Inclusive Stay?</h2>
+                                <p>Tips to take full advantage of the included services and optimize your experience.
+                                </p>
+                                <div class="button-wrap1">
+                                    <a href="/articles#article-three" target="_blank">Learn more</a>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+            </div>
+
+        </div>
+    </section>
+    <section class="section ptb-100 over-flow-h">
+        <div class="container">
+
+            <div class="row flex-md-row-reverse align-items-center">
+                <div class="col-lg-6 col-md-6">
+                    <div class="aos-init" data-aos="fade-right">
+                        <img src="../images/stays3.jpg" class="img-fluid" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6">
+                    <div class="hotel-link-text aos-init" data-aos="fade-left">
+                        <h3 class="small-heading">Why Book a Casino Hotel?</h3>
+
+                        <ul class="lists">
+                            <li><i class="fa fa-dot-circle-o"></i> Direct access to exclusive gaming rooms and
+                                tournaments</li>
+                            <li><i class="fa fa-dot-circle-o"></i> Entertainment, shows and restaurants on site</li>
+                            <li><i class="fa fa-dot-circle-o"></i> Immersive experience in the heart of Las Vegas</li>
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+
+
+    <div class="explore-sec over-flow-h ptb-100">
+        <div class="banner-video">
+            <video class="video-background" autoplay="" loop="" muted="">
+                <source src="../images/subscribe.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div class="container">
+            <div class="explore-text aos-init" data-aos="fade-up" data-aos-duration="1300">
+                <h3 class="big-heading">
+                    Get the Best Deals on Casino Hotels
+                </h3>
+                <p class="tile-disc1">
+                    Sign up to receive exclusive promotions and the best deals on Casino Hotels in Las Vegas.
+                </p>
+                <div class="search-container">
+                    <form action="#">
+                        <i class="fa fa-envelope-o"></i>
+                        <input type="text" placeholder="Enter your email address" name="search">
+                        <button type="submit">Subscribe</button>
+                    </form>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- mobile  tp Start -->
+<div class="mobile-view">
+    <section class="tp-banner" style="background-image:url(images/tp_banner_image.jpg)">
+        <div class="tp-banner-text">
+            <div class="tp-banner-text-group">
+                <h2>
+                    Top Sportsbooks & Casino Sites in Canada
+                </h2>
+                <p class="text-center">
+                    Canada’s Most Trusted Betting Platforms
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <div class="container">
+
+
+        <!-- Betovo start-->
+        <div class="top-list">
+            <div class="top-list-wrap">
+                <div class="toplist-left">
+                    <div class="tp-logo logo_betovo">
+                        <a href="https://btvo.fynkelto.com/?mid=243395_1552956" class="betovo" target="_blank"
+                            style="background-image: url(images/betovo_logo.png)">
+                        </a>
+                    </div>
+                    <div class="rating-wrap">
+                        <div class="rating-txt">
+                            <p>
+                                Rating: <span>9.9</span>
+                            </p>
+                        </div>
+                        <div class="votes-txt">
+                            <p>
+                                Votes: <span>(856)</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="Stars Stars--rating99"></div>
+                </div>
+
+                <div class="toplist-right">
+                    <div class="toplist-heading">
+                        <a href="https://btvo.fynkelto.com/?mid=243395_1552956" target="_blank">
+                            <h4>Welcome Bonus</h4>
+                            <p>
+                                $375 in Free Bets
+                            </p>
+                        </a>
+                    </div>
+                    <div class="top-list-btn">
+                        <a href="https://btvo.fynkelto.com/?mid=243395_1552956" target="_blank" class="btn">
+                            SIGN UP
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <!-- Betovo end -->
+
+        <!--20bet start-->
+        <div class="top-list">
+            <div class="top-list-wrap">
+                <div class="toplist-left">
+                    <div class="tp-logo logo_twentybet">
+                        <a href="https://mu.fastmui.com/redirect.aspx?pid=380083&bid=1971&lpid=860" class="twentybet"
+                            target="_blank" style="background-image: url(images/twenty_bet.png)">
+                        </a>
+                    </div>
+                    <div class="rating-wrap">
+                        <div class="rating-txt">
+                            <p>
+                                Rating: <span>9.9</span>
+                            </p>
+                        </div>
+                        <div class="votes-txt">
+                            <p>
+                                Votes: <span>(856)</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="Stars Stars--rating99"></div>
+                </div>
+
+                <div class="toplist-right">
+                    <div class="toplist-heading">
+                        <a href="https://mu.fastmui.com/redirect.aspx?pid=380083&bid=1971&lpid=860" target="_blank">
+                            <h4>Welcome Bonus</h4>
+                            <p>
+                                Up To $150 In Free Bets
+                            </p>
+                        </a>
+                    </div>
+                    <div class="top-list-btn">
+                        <a href="https://mu.fastmui.com/redirect.aspx?pid=380083&bid=1971&lpid=860" target="_blank"
+                            class="btn">
+                            SIGN UP
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+
+
+        </div>
+        <!-- 20bet end -->
+
+
+        <!-- Bassbet start-->
+        <div class="top-list">
+            <div class="top-list-wrap">
+                <div class="toplist-left">
+                    <div class="tp-logo logo_bassbet">
+                        <a href="https://bsbt.fynkelto.com/?mid=72961_1569416" class="basbet" target="_blank"
+                            style="background-image: url(images/bassbet-logo.png)">
+                        </a>
+                    </div>
+                    <div class="rating-wrap">
+                        <div class="rating-txt">
+                            <p>
+                                Rating: <span>9.8</span>
+                            </p>
+                        </div>
+                        <div class="votes-txt">
+                            <p>
+                                Votes: <span>(856)</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="Stars Stars--rating99"></div>
+                </div>
+
+                <div class="toplist-right">
+                    <div class="toplist-heading">
+                        <a href="https://bsbt.fynkelto.com/?mid=72961_1569416" target="_blank">
+                            <h4>Welcome Bonus</h4>
+                            <p>
+                                100% Up To $150 In Free Bets
+                            </p>
+                        </a>
+                    </div>
+                    <div class="top-list-btn">
+                        <a href="https://bsbt.fynkelto.com/?mid=72961_1569416" target="_blank" class="btn">
+                            SIGN UP
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+
+
+        </div>
+        <!-- Bassbet end -->
+
+        <!-- Ivibet start-->
+        <div class="top-list">
+            <div class="top-list-wrap">
+                <div class="toplist-left">
+                    <div class="tp-logo logo_ivibet">
+                        <a href="https://top.aglobally.com/redirect.aspx?pid=55625&bid=1478&lpid=52" class="twentybet"
+                            target="_blank" style="background-image: url(images/ivibet-logo.png)">
+                        </a>
+                    </div>
+                    <div class="rating-wrap">
+                        <div class="rating-txt">
+                            <p>
+                                Rating: <span>9.8</span>
+                            </p>
+                        </div>
+                        <div class="votes-txt">
+                            <p>
+                                Votes: <span>(856)</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="Stars Stars--rating99"></div>
+                </div>
+
+                <div class="toplist-right">
+                    <div class="toplist-heading">
+                        <a href="https://top.aglobally.com/redirect.aspx?pid=55625&bid=1478&lpid=52" target="_blank">
+                            <h4>Welcome Bonus</h4>
+                            <p>
+                                Up to $230 in Free Bets
+                            </p>
+                        </a>
+                    </div>
+                    <div class="top-list-btn">
+                        <a href="https://top.aglobally.com/redirect.aspx?pid=55625&bid=1478&lpid=52" target="_blank"
+                            class="btn">
+                            SIGN UP
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <!-- Ivibet end -->
+
+
+        <!--888 start-->
+        <div class="top-list">
+            <div class="top-list-wrap">
+                <div class="toplist-left">
+                    <div class="tp-logo logo_eight">
+                        <a href="https://ic.aff-handler.com/C/48132?sr=2009891" class="twentybet" target="_blank"
+                            style="background-image: url(images/logo_888_orange.jpg)">
+                        </a>
+                    </div>
+                    <div class="rating-wrap">
+                        <div class="rating-txt">
+                            <p>
+                                Rating: <span>9.7</span>
+                            </p>
+                        </div>
+                        <div class="votes-txt">
+                            <p>
+                                Votes: <span>(856)</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="Stars Stars--rating99"></div>
+                </div>
+
+                <div class="toplist-right">
+                    <div class="toplist-heading">
+                        <a href="https://ic.aff-handler.com/C/48132?sr=2009891" target="_blank">
+                            <h4>Welcome Bonus</h4>
+                            <p>
+                                Up to $500 in Free Bets
+                            </p>
+                        </a>
+                    </div>
+                    <div class="top-list-btn">
+                        <a href="https://ic.aff-handler.com/C/48132?sr=2009891" target="_blank" class="btn">
+                            SIGN UP
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+
+
+        </div>
+        <!-- 888 end -->
+
+
+        <!-- Librabet start-->
+        <div class="top-list">
+            <div class="top-list-wrap">
+                <div class="toplist-left">
+                    <div class="tp-logo logo_librabet">
+                        <a href="https://lrb.fynkelto.com/?mid=72961_1569436" class="twentybet" target="_blank"
+                            style="background-image: url(images/librabet-logo.jpg)">
+                        </a>
+                    </div>
+                    <div class="rating-wrap">
+                        <div class="rating-txt">
+                            <p>
+                                Rating: <span>9.7</span>
+                            </p>
+                        </div>
+                        <div class="votes-txt">
+                            <p>
+                                Votes: <span>(856)</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="Stars Stars--rating99"></div>
+                </div>
+
+                <div class="toplist-right">
+                    <div class="toplist-heading">
+                        <a href="https://lrb.fynkelto.com/?mid=72961_1569436" target="_blank">
+                            <h4>Welcome Bonus</h4>
+                            <p>
+                                Up To $150 In Free Bets
+                            </p>
+                        </a>
+                    </div>
+                    <div class="top-list-btn">
+                        <a href="https://lrb.fynkelto.com/?mid=72961_1569436" target="_blank" class="btn">
+                            SIGN UP
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <!-- Librabet end -->
+
+
+        <!-- 22bet start-->
+        <div class="top-list">
+            <div class="top-list-wrap">
+                <div class="toplist-left">
+                    <div class="tp-logo logo_twentytwobets">
+                        <a href="https://moy.auraodin.com/redirect.aspx?pid=134097&bid=1553&lpid=319" class="twentybet"
+                            target="_blank" style="background-image: url(images/22bet-logo.jpg)">
+                        </a>
+                    </div>
+                    <div class="rating-wrap">
+                        <div class="rating-txt">
+                            <p>
+                                Rating: <span>9.6</span>
+                            </p>
+                        </div>
+                        <div class="votes-txt">
+                            <p>
+                                Votes: <span>(856)</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="Stars Stars--rating99"></div>
+                </div>
+
+                <div class="toplist-right">
+                    <div class="toplist-heading">
+                        <a href="https://moy.auraodin.com/redirect.aspx?pid=134097&bid=1553&lpid=319" target="_blank">
+                            <h4>Welcome Bonus</h4>
+                            <p>
+                                $180 In Free Bets
+                            </p>
+                        </a>
+                    </div>
+                    <div class="top-list-btn">
+                        <a href="https://moy.auraodin.com/redirect.aspx?pid=134097&bid=1553&lpid=319" target="_blank"
+                            class="btn">
+                            SIGN UP
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <!-- 22bet end -->
+
+
+        <div class="bottom_cards mt-5">
+
+            <h3 class="mb-5 text-center">
+                Leading Online Casinos for Canadian Players
+            </h3>
+
+            <!-- DragonSlots -->
+            <div class="top-list">
+                <div class="top-list-wrap">
+                    <div class="toplist-left">
+                        <div class="tp-logo logo_dragon">
+                            <a href="https://mu.fastmui.com/redirect.aspx?pid=380085&bid=2159&lpid=2457" class="bizzo"
+                                target="_blank" style="background-image: url(images/dragonslots_logo.jpg)">
+                            </a>
+                        </div>
+                        <div class="rating-wrap">
+                            <div class="rating-txt">
+                                <p>
+                                    Rating: <span>9.9</span>
+                                </p>
+                            </div>
+                            <div class="votes-txt">
+                                <p>
+                                    Votes: <span>(856)</span>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="Stars Stars--rating99"></div>
+                    </div>
+
+                    <div class="toplist-right">
+                        <div class="toplist-heading">
+                            <a href="https://mu.fastmui.com/redirect.aspx?pid=380085&bid=2159&lpid=2457"
+                                target="_blank">
+                                <h4>Welcome Bonus</h4>
+                                <p>
+                                    Up To $10000 Bonus + 200 Free Spins
+                                </p>
+                            </a>
+                        </div>
+                        <div class="top-list-btn">
+                            <a href="https://mu.fastmui.com/redirect.aspx?pid=380085&bid=2159&lpid=2457" target="_blank"
+                                class="btn">
+                                SIGN UP
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <!-- DragonSlots  -->
+
+
+            <!-- Pistolo-->
+            <div class="top-list">
+                <div class="top-list-wrap">
+                    <div class="toplist-left">
+                        <div class="tp-logo logo_pistolo">
+                            <a href="https://pis.trivobel.com/?mid=135481_1545632" class="pistolo" target="_blank"
+                                style="background-image: url(images/pistolo_logo.jpg)">
+                            </a>
+                        </div>
+                        <div class="rating-wrap">
+                            <div class="rating-txt">
+                                <p>
+                                    Rating: <span>9.9</span>
+                                </p>
+                            </div>
+                            <div class="votes-txt">
+                                <p>
+                                    Votes: <span>(856)</span>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="Stars Stars--rating99"></div>
+                    </div>
+
+                    <div class="toplist-right">
+                        <div class="toplist-heading">
+                            <a href="https://pis.trivobel.com/?mid=135481_1545632" target="_blank">
+                                <h4>Welcome Bonus</h4>
+                                <p>
+                                    $750 Bonus + 200 Free Spins
+                                </p>
+                            </a>
+                        </div>
+                        <div class="top-list-btn">
+                            <a href="https://pis.trivobel.com/?mid=135481_1545632" target="_blank" class="btn">
+                                SIGN UP
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <!-- Pistolo -->
+
+
+            <!-- Goldspins-->
+            <div class="top-list">
+                <div class="top-list-wrap">
+                    <div class="toplist-left">
+                        <div class="tp-logo logo_goldspin">
+                            <a href="https://gdspn.fynkelto.com/?mid=243336_1552958" class="legiano_btm" target="_blank"
+                                style="background-image: url(images/goldSpins-logo.png)">
+                            </a>
+                        </div>
+                        <div class="rating-wrap">
+                            <div class="rating-txt">
+                                <p>
+                                    Rating: <span>9.8</span>
+                                </p>
+                            </div>
+                            <div class="votes-txt">
+                                <p>
+                                    Votes: <span>(856)</span>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="Stars Stars--rating99"></div>
+                    </div>
+
+                    <div class="toplist-right">
+                        <div class="toplist-heading">
+                            <a href="https://gdspn.fynkelto.com/?mid=243336_1552958" target="_blank">
+                                <h4>Welcome Bonus</h4>
+                                <p>
+                                    100% up to $2250 + 100 Free Spins
+                                </p>
+                            </a>
+                        </div>
+                        <div class="top-list-btn">
+                            <a href="https://gdspn.fynkelto.com/?mid=243336_1552958" target="_blank" class="btn">
+                                SIGN UP
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <!-- Goldspins -->
+
+
+            <!-- Spinit -->
+            <div class="top-list">
+                <div class="top-list-wrap">
+                    <div class="toplist-left">
+                        <div class="tp-logo logo_spinit">
+                            <a href="https://swp.fynkelto.com/?mid=75042_1569412" class="bizzo" target="_blank"
+                                style="background-image: url(images/spinit_logo.png)">
+                            </a>
+                        </div>
+                        <div class="rating-wrap">
+                            <div class="rating-txt">
+                                <p>
+                                    Rating: <span>9.8</span>
+                                </p>
+                            </div>
+                            <div class="votes-txt">
+                                <p>
+                                    Votes: <span>(856)</span>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="Stars Stars--rating99"></div>
+                    </div>
+
+                    <div class="toplist-right">
+                        <div class="toplist-heading">
+                            <a href="https://swp.fynkelto.com/?mid=75042_1569412" target="_blank">
+                                <h4>Welcome Bonus</h4>
+                                <p>
+                                    $750 Bonus + 200 Free Spins
+                                </p>
+                            </a>
+                        </div>
+                        <div class="top-list-btn">
+                            <a href="https://swp.fynkelto.com/?mid=75042_1569412" target="_blank" class="btn">
+                                SIGN UP
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <!-- Spinit  -->
+
+            <!-- Jet4bet -->
+            <div class="top-list">
+                <div class="top-list-wrap">
+                    <div class="toplist-left">
+                        <div class="tp-logo logo_jet4bet">
+                            <a href="https://jet4betmedia.com/n1087b9560" class="jet4bet" target="_blank"
+                                style="background-image: url(images/jet4bet_logo.jpg)">
+                            </a>
+                        </div>
+                        <div class="rating-wrap">
+                            <div class="rating-txt">
+                                <p>
+                                    Rating: <span>9.7</span>
+                                </p>
+                            </div>
+                            <div class="votes-txt">
+                                <p>
+                                    Votes: <span>(856)</span>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="Stars Stars--rating99"></div>
+                    </div>
+
+                    <div class="toplist-right">
+                        <div class="toplist-heading">
+                            <a href="https://jet4betmedia.com/n1087b9560" target="_blank">
+                                <h4>Welcome Bonus</h4>
+                                <p>
+                                    $3000 Bonus + 200 Free Spins
+                                </p>
+                            </a>
+                        </div>
+                        <div class="top-list-btn">
+                            <a href="https://jet4betmedia.com/n1087b9560" target="_blank" class="btn">
+                                SIGN UP
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <!-- Jet4bet  -->
+
+
+
+
+        </div>
+
+
+    </div>
+
+
+    <div class="tp-bottom-text-section">
+        <div class="container">
+            <div class="tp-bottom-text-wrapper">
+                <h3>
+                    Compare Canada’s Best Casino Sites and Sportsbooks
+                </h3>
+                <p>
+                    Searching for the best online casinos and sports betting sites in Canada? Foow brings you a curated
+                    selection of licensed platforms offering real-money games, competitive odds, and standout
+                    promotions. From high-limit slots to NHL betting markets, we highlight the top Canadian sportsbooks
+                    and casinos for a smooth, secure experience.
+                </p>
+
+                <p>
+                    Why Foow Features These Top Canadian Sites
+                </p>
+
+                <p>
+                    ✔️ Fully Licensed and Safe
+                </p>
+                <p>
+                    All platforms recommended by Foow are legally licensed for Canadian players and meet the highest
+                    safety standards.
+                </p>
+                <p>
+                    ✔️ Extensive Casino Games & Betting Options
+                </p>
+                <p>
+                    Play poker, blackjack, slots, and roulette—or place bets on hockey, basketball, football, and more.
+                    Everything you enjoy, in one place.
+                </p>
+                <p>
+                    ✔️ Optimized for Mobile & Desktop
+                </p>
+                <p>
+                    Experience fast-loading, user-friendly platforms on any device—perfect for betting or gaming on the
+                    go.
+                </p>
+                <p>
+                    ✔️ Generous Bonuses & Promotions
+                </p>
+                <p>
+                    Claim deposit matches, free spins, welcome bonuses, and risk-free bets from Canada’s leading sites.
+                </p>
+                <p>
+                    ✔️ Quick Payouts & Canadian-Friendly Payments
+                </p>
+                <p>
+                    Withdraw safely with Interac, PayPal, e-wallets, or direct banking—tailored for the Canadian market.
+                </p>
+                <h3>
+                    Discover the Top Canadian Sportsbooks & Online Casinos
+                </h3>
+                <p>
+                    At Foow, we help you make smart decisions by comparing and reviewing the most trusted online
+                    gambling sites in Canada. Whether you're spinning slots or betting on the Stanley Cup Finals, we
+                    provide expert guidance to help you play smarter.
+                </p>
+                <p>
+                    Explore top-rated platforms, exclusive bonuses, and the best features—all in one place. Get started
+                    now and bet with confidence on Canada’s best casino and sportsbook sites.
+                </p>
+            </div>
+        </div>
+    </div>
+
+</div>
+<!-- mobile tp end  -->
+<?php include_once('footer.php') ?>

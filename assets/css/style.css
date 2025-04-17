@@ -492,6 +492,7 @@ li {
     flex-wrap: wrap;
     align-items: center;
     gap: 1.5rem;
+    padding: 0 10px;
 }
 
 .why_inner {
@@ -722,7 +723,7 @@ li {
 }
 
 .footer_navbar ul li a {
-    font-weight: 600;
+    font-weight: 500;
     color: #d09f37;
     font-size: 1.25rem;
     transition: 0.3s ease-in-out;
@@ -811,7 +812,7 @@ li {
 
 .infoSec_content h3 {
     font-size: 1.8rem;
-    font-weight: 700;
+    font-weight: 500;
     margin-bottom: 1.2rem;
 }
 
