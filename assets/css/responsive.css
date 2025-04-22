@@ -423,10 +423,13 @@
     }
 
     h3 {
-        font-size: 1.6rem;
+        font-size: 1.4rem;
     }
     p, li {
         font-size: 1rem;
+    }
+    .beforeBooking_content {
+        padding: 2rem 15px;
     }
 
 }

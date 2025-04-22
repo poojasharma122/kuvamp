@@ -583,6 +583,7 @@ li {
 .beforeBooking_content h3 {
     color: #d09f37;
     margin-bottom: 1.5rem;
+    line-height: 1.4;
 }
 
 .beforeBooking_content ul {
@@ -679,6 +680,7 @@ li {
     max-width: 150px;
     padding: 1rem 1.5rem;
     text-transform: capitalize;
+    border-radius: 8px;
 }
 
 /* footer sec start */
